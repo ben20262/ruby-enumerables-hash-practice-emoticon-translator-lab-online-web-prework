@@ -3,10 +3,6 @@ require 'yaml'
 
 def load_library(file)
   emotes = YAML.load_file(file)
-  meaning = emotes.keys
-  cons = emotes.values
-  america = []
-  japan = []
   mean_hash = {}
   emo_hash = {}
   x = 0
