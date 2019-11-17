@@ -31,4 +31,5 @@ def get_english_meaning(file, emote)
     hash[:get_meaning][emote]
   else
     "Sorry, that emoticon was not found"
+  end
 end
