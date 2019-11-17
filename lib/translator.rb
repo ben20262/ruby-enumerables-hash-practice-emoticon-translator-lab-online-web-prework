@@ -10,10 +10,10 @@ def load_library(file)
   mean_hash = {}
   emo_hash = {}
   x = 0
-  cons.each do |group|
+  emotes.values.each do |group|
     america = group[0]
     japan = group[1]
-    mean_hash[japan] = meaning[x]
+    mean_hash[japan] = emots.keys[x]
     emo_hash[america] = japan
     x += 1
   end
