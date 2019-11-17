@@ -17,7 +17,7 @@ def load_library(file)
     emo_hash[america] = japan
     x += 1
   end
-  
+
   [[:get_meaning, emotes], [:get_emoticon, emotes]].to_h
 end
 
